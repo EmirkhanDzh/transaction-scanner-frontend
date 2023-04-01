@@ -1,0 +1,49 @@
+
+.authContainer {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.authContainer>form {
+    width: 80%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.cPointer {
+    cursor: pointer;
+}
+
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+
+.authP {
+    color: red
+}
+
+.signInUpFooter {
+    padding-bottom: 1rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.signInUpFooter u {
+    color: #2185d0;
+}
